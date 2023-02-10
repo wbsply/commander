@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "websupply/commander",
+    "require": {
+        "neos/flow": "*",
+        "websupply/event-dispatcher" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebSupply\\Commander\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "WebSupply.Commander"
+        }
+    }
+}
